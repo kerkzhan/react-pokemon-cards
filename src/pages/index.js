@@ -1,41 +1,31 @@
 import React from "react";
-
+import DropdownSelect from "../components/DropdownSelect";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`, `pokemon`, `kerk zhan`]}
         title="Home"
       />
-
-      <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        />
-
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
-        </p>
-      </section>
+      <DropdownSelect/>
+      <div className="flex flex-wrap flex-row items-center justify-center h-full">
+        <div className="w-1/2 h-full max-h-3/4 bg-gray-400">
+          <div className="block h-56 bg-gray-600 m-4 text-center">
+            Picture
+          </div>
+          <div className="block m-4">
+            <h1 className="font-bold text-2xl">Pikachu</h1>
+            <h2 className="text-md italic mx-3">Description</h2>
+            <h2 className="font-bold mt-3">Skill 1</h2>
+            <h2 className="text-sm mx-2">Skill Description</h2>
+            <h2 className="font-bold mt-3">Skill 2</h2>
+            <h2 className="text-sm mx-2">Skill Description</h2>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }

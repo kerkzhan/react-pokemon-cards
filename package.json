@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "starter-pokemon-cards",
+  "description": "A site to show you the original start pokemon and their evolutions",
   "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Boon Kerk Zhan <kerkzhan@gmail.com>",
   "dependencies": {
     "gatsby": "2.24.65",
     "gatsby-plugin-manifest": "2.4.29",
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
+    "url": "https://github.com/kerkzhan/react-pokemon-cards"
   },
   "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/kerkzhan/react-pokemon-cards/issues"
   }
 }
