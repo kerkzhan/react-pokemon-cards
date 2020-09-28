@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "gatsby";
 import { useHttp } from "../hooks/http.js";
 
 const DropdownSelect = () => {
@@ -6,14 +7,13 @@ const DropdownSelect = () => {
     const fetchedData = useHttp('https://pokeapi.co/api/v2/pokemon?limit=9', []);
     const pokemonList = fetchedData.includes(null) ? [] : fetchedData[0].results.map((pokemon, index) => ({
         name: pokemon.name,
-        id: index+1
+        id: index
     }));
-    console.log(pokemonList);
 
     const handleChange = (e) => {
         e.preventDefault();
-        setSelectedPokemon(e.target.value);
-        console.log(selectedPokemon);
+        setSelectedPokemon(parseInt(e.target.value));
+        console.log(`This is my pokemon: ${pokemonList[selectedPokemon].name}`);
     }
 
     return (
@@ -27,7 +27,7 @@ const DropdownSelect = () => {
                     ))}
                 </select>
                 <br/>
-                <button className="flex-shrink-0 bg-red-600 hover:bg-red-800 border-red-600 hover:border-red-800 text-sm border-4 text-white py-1 px-2 rounded">Go!</button>
+                <Link to={`/pokemon/${selectedPokemon+1}`}><button className="flex-shrink-0 bg-red-600 hover:bg-red-800 border-red-600 hover:border-red-800 text-sm border-4 text-white py-1 px-2 rounded">Go!</button></Link>
         </div>
         )
 };
