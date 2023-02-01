@@ -6,17 +6,16 @@ _Give a high-level overview of the feature that is being released._
 Jira ticket: [FAZ-XXX](https://fazzfinancial.atlassian.net/browse/FAZ-XXXX)
 
 ## Owners
-- @github_user
-- @github_user
+_Mention the owners who have worked on this branch using `@<username>`_
+
+- @kerkzhan 
+- @edwincapel
 
 ## Tickets solved
-_Link to code-change PRs using `#<PR_id>`_
+_Mention code-change PRs using `#<PR_id>`_
 
-e.g.
 - #47538 
-- #47538 
-- #47561 
-- #47615 
+- #47539
 
 ## Approvals
 
