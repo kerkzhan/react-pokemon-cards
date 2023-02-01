@@ -26,5 +26,3 @@ e.g.
 _Add screenshots of approval below_
 
 
-
-[FAZ-1170]: https://fazzfinancial.atlassian.net/browse/FAZ-1170?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ
