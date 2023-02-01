@@ -1,11 +1,4 @@
-Issue
-Resolves Reference issue here
+Please go the the `Preview` tab and select the appropriate sub-template:
 
-What this PR does
-How does this change or address the problem?
-
-Test Plan
-Steps to test this flow
-
-Rollback Plan
-Steps to rollback this PR
+* [Group A](?expand=1&template=default.md)
+* [Group B](?expand=1&template=extra.md)
