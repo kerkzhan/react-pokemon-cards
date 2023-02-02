@@ -1,5 +1,11 @@
-## Welcome to PR template chooser
-Please go the the `Preview` tab and select the appropriate sub-template:
+# Welcome to PR template picker
 
-* [Default](?expand=1&template=default.md)
-* [[Fazz Biz] Release branch](?expand=1&template=release.md)
+Please go the the `Preview` tab and select the appropriate sub-template for your needs:
+
+## General
+
+- [Basic](?expand=1&template=basic.md)
+
+## Fazz Biz
+
+- [Release Branch](?expand=1&template=fb_release_branch.md)
